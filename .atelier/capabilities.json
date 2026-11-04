@@ -1,0 +1,113 @@
+{
+  "probed_at": "2026-11-02T10:05:44.936Z",
+  "platform": "win32",
+  "engines": {
+    "blender": {
+      "ok": false
+    },
+    "inkscape": {
+      "ok": false
+    },
+    "magick": {
+      "ok": false
+    },
+    "ffmpeg": {
+      "ok": false
+    },
+    "ffprobe": {
+      "ok": false
+    },
+    "sox": {
+      "ok": false
+    },
+    "potrace": {
+      "ok": false
+    },
+    "vtracer": {
+      "ok": false
+    },
+    "openscad": {
+      "ok": false
+    },
+    "whisper": {
+      "ok": false
+    }
+  },
+  "node_modules": {
+    "sharp": {
+      "ok": false
+    },
+    "playwright": {
+      "ok": false
+    },
+    "remotion": {
+      "ok": false
+    },
+    "@remotion/renderer": {
+      "ok": false
+    },
+    "canvas": {
+      "ok": false
+    },
+    "three": {
+      "ok": false
+    }
+  },
+  "python_packages": {
+    "cv2": {
+      "ok": false
+    },
+    "rembg": {
+      "ok": false
+    },
+    "PIL": {
+      "ok": true
+    },
+    "trimesh": {
+      "ok": false
+    }
+  },
+  "mcp_servers": {},
+  "hardware": {
+    "cpu": "Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz",
+    "cores": 4,
+    "ram_gb": 16,
+    "gpu": "Intel(R) HD Graphics 520"
+  },
+  "summary": {
+    "vector": {
+      "tier": 4,
+      "note": "Agent-authored SVG (always works)"
+    },
+    "raster_photo": {
+      "tier": 4,
+      "note": "canvas math only"
+    },
+    "layout_print": {
+      "tier": 2,
+      "note": "HTML/CSS canvas; headless render via Playwright or agent-authored PDF"
+    },
+    "motion_video": {
+      "tier": 2,
+      "ffmpeg": false,
+      "note": "Remotion via npx; no FFmpeg — install it for encode, mixdown and QA features"
+    },
+    "three_d": {
+      "tier": 4,
+      "note": "three.js/OpenSCAD-code or 2.5D parallax; cloud gen needs approval — installing Blender unlocks photoreal + tracking"
+    },
+    "audio": {
+      "tier": 4,
+      "note": "No local mix engine — install FFmpeg, or use cloud APIs with approval"
+    },
+    "ui_web": {
+      "tier": 4,
+      "note": "Pure code by default; Figma/OpenPencil MCP auto-detected when configured"
+    },
+    "delivery": {
+      "platforms": [],
+      "note": "no platform credentials/MCPs — custom code default; other targets via platform-delivery modes (automate/drive/human-hands)"
+    }
+  },
+  "platforms": {}
+}
