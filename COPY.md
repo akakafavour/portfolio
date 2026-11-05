@@ -1,126 +1,68 @@
 # MASTER COPY SUITE: DIGITAL PORTFOLIO
-**Role:** Growth Marketer & Web Designer  
-**Tone:** Unboxed, Confident, Human, Outcome-Driven (Zero Corporate Slop, Zero Em-Dashes)
+**Title:** Product Designer & Growth Marketer  
+**Tone:** Unboxed, Confident, Human, Outcome-Driven (Zero Corporate Slop, Zero Em-Dashes)  
+**Chromatic Accent:** Electric Acid Lime (`#D4FF00`) for emphasized key phrases.
 
 ---
 
 ## 1. Navigation Bar
 
-* **Logo / Monogram:**
+* **Logo / Mark (Left):**
   ```text
   [YOUR NAME].
   ```
-* **Nav Links:**
+* **Nav Links (Center):**
   * `Work`
   * `Services`
-  * `Writing`
-* **CTA Button:**
+  * `About`
+* **CTA Button (Right):**
   * `Let's Talk`
+* **Compact Scroll State:**
+  ```text
+  [YOUR NAME]  •  Let's Talk
+  ```
 
 ---
 
 ## 2. Hero Section
 
-* **Display Headline (Left Side - Bold & Heavy):**
+* **Display Headline (Left Side - Bold Condensed):**
   ```text
+  PRODUCT DESIGNER.
   GROWTH MARKETER.
-  WEB DESIGNER.
   ```
 
 * **Supporting Narrative (Right Side - Conversational Pitch):**
   ```text
-  I help businesses turn attention into revenue.
+  I partner with founders to turn ideas into high-converting digital products.
 
-  I design custom websites, write high-converting copy, and build smart automations that save founders hours every week.
+  I design custom web experiences, write clear sales messaging, and integrate smart automations that save businesses hours every week.
 
   Whether you are launching something new or fixing an existing site that isn't performing, I bridge the gap between creative craft and real business growth.
   ```
+  *(Chromatic Highlights in Acid Lime: "high-converting digital products" and "creative craft and real business growth")*
 
 * **Interactive Portrait Micro-Label (Under portrait):**
   ```text
-  [ Drag or hover to disturb liquid surface ]
+  [ Touch or hover to disturb liquid surface ]
   ```
 
 ---
 
-## 3. Services ("What I Do")
+## 3. Selected Work (Horizontal Runway Showcase)
 
-* **Section Header:**
+* **Section Tag:**
   ```text
-  WHAT I DO
+  // 01 WORK
   ```
-* **Section Subhead:**
+* **Section Heading:**
   ```text
-  Strategy, words, web craft, and systems under one roof.
+  SELECTED BUILDS & CASE STUDIES
   ```
-
-### Service 01: Web Design & Frontend
-* **Card Header (Left):**
-  ```text
-  WEB DESIGN & FRONTEND
-  ```
-* **Hook (Right - Bold):**
-  ```text
-  CUSTOM WEBSITES THAT BUILD AUTHORITY AND DRIVE REVENUE.
-  ```
-* **Body Copy:**
-  ```text
-  From startup landing pages and custom web builds to e-commerce storefronts and interactive interfaces, I build fast, responsive websites tailored to your brand.
-
-  Already have a website? I also handle complete redesigns, SEO, speed overhauls, and ongoing site management so your digital presence stays sharp.
-  ```
-* **Deliverable Tags:**
-  * `Custom Web Design & Frontend Development`
-  * `High-Converting Landing Pages & Launch Sites`
-  * `E-Commerce & Storefront Architecture`
-  * `Technical SEO & Speed Optimization`
-  * `Redesigns & Ongoing Website Management (For Existing Sites)`
-
-### Service 02: Copywriting & Content
-* **Card Header (Left):**
-  ```text
-  COPYWRITING & CONTENT
-  ```
-* **Hook (Right - Bold):**
-  ```text
-  MESSAGING THAT MAKES YOUR VALUE OBVIOUS.
-  ```
-* **Body Copy:**
-  ```text
-  If people do not understand why they should choose you in five seconds, they leave. I write clear sales pages, headlines, and content that explain complex offers simply and move customers to take action.
-  ```
-* **Deliverable Tags:**
-  * `Landing Page & Sales Copywriting`
-  * `Offer Positioning & Core Messaging`
-  * `Brand Content & Authority Writing`
-  * `Lifecycle Marketing & Automated Email Funnels`
-
-### Service 03: AI Integration & Business Automation
-* **Card Header (Left):**
-  ```text
-  AI INTEGRATION & AUTOMATION
-  ```
-* **Hook (Right - Bold):**
-  ```text
-  AUTOMATE REPETITIVE TASKS. SAVE HOURS EVERY WEEK.
-  ```
-* **Body Copy:**
-  ```text
-  As technology accelerates, manual operations eat up your team's time and slow down delivery. I integrate practical AI tools and build automated workflows that handle routine tasks, streamline client delivery, and keep your business running smoothly without hiring extra staff.
-  ```
-* **Deliverable Tags:**
-  * `Custom AI Tool Integration & Smart Workflows`
-  * `Business Operations & Delivery Automation`
-  * `CRM, Form & Payment Routing (Stripe, Airtable, Notion)`
-  * `Automated Client Onboarding & Internal Notifications`
-
----
-
-## 4. Selected Work (Showcase Cards)
 
 ### Project 01: Horizon Goods
 * **Title:** `Horizon Goods`
-* **Scope Pill:** `[ Web Design & E-Commerce ]`
+* **Scope Pill:** `[ Product Design & E-Commerce ]`
 * **One-Line Proposition:**
   ```text
   Complete custom storefront redesign and checkout rebuild that lifted mobile conversion by 34% in 30 days.
@@ -129,7 +71,7 @@
 
 ### Project 02: MetricFlow
 * **Title:** `MetricFlow`
-* **Scope Pill:** `[ Copywriting & Strategy ]`
+* **Scope Pill:** `[ Copywriting & Launch Strategy ]`
 * **One-Line Proposition:**
   ```text
   Repositioned a complex analytics offer from technical jargon into a clear 4-step value story that booked 42 founder demos in week one.
@@ -138,70 +80,145 @@
 
 ### Project 03: Atelier Ops
 * **Title:** `Atelier Ops`
-* **Scope Pill:** `[ AI & Automation ]`
+* **Scope Pill:** `[ AI Integration & Automation ]`
 * **One-Line Proposition:**
   ```text
   Integrated an automated lead triage and delivery workflow that cut client response time from 6 hours to 45 seconds, handling 600 monthly inquiries autonomously.
   ```
 * **Button:** `View Case Study ->`
 
-* **Bottom Archive Button:**
+* **Archive Portal Button:**
   ```text
   View Complete Work Archive ->
   ```
 
 ---
 
-## 5. The Perspective (Essays)
+## 4. The Moving Brand Strip
 
-* **Section Header:**
+* **Section Label:**
   ```text
-  THE PERSPECTIVE
+  TRUSTED BY FOUNDERS & MODERN BRANDS
   ```
-* **Section Subhead:**
+* **Ticker Marks (Monochrome Silver):**
   ```text
-  How I think about copy, brand building, and growth in a crowded market.
-  ```
-
-### Essay 01
-* **Title:** `Why Most Modern Websites Sound Completely Invisible`
-* **Reading Time:** `3 min read`
-* **Hook:**
-  ```text
-  If you swap your competitor's logo onto your homepage and the text still makes sense, you do not have a brand. You have a template.
-  ```
-* **Excerpt:**
-  ```text
-  Most founders believe they have a traffic problem when they actually have a clarity problem. When you stop using generic corporate filler and start speaking with conviction, your conversion rate solves itself.
-  ```
-
-### Essay 02
-* **Title:** `The Cost of Disconnected Design and Copy`
-* **Reading Time:** `4 min read`
-* **Hook:**
-  ```text
-  Designers design before reading the words. Writers write without seeing the layout. The result is an expensive mess that converts nobody.
-  ```
-* **Excerpt:**
-  ```text
-  The visual hierarchy of a page must be dictated by the rhythm of the argument. When typography, spatial tension, and copy are crafted together from day one, you build an experience customers remember.
-  ```
-
-### Essay 03
-* **Title:** `The Solopreneur Growth Engine`
-* **Reading Time:** `3 min read`
-* **Hook:**
-  ```text
-  You do not need a 10-person marketing department. You need one sharp message, one fast website, and an automated backend.
-  ```
-* **Excerpt:**
-  ```text
-  Smart operators in 2026 do not scale by adding headcount. They scale by removing friction: clear offers that sell themselves, automated client onboarding, and practical AI integrations that free up 15 hours every week.
+  HORIZON GOODS  •  METRICFLOW  •  ATELIER OPS  •  PAW-TECH  •  VAULT LABS  •  STUDIO NINE
   ```
 
 ---
 
-## 6. Footer & Contact Module
+## 5. Services: The Expandable Architectural Drawers
+
+* **Section Tag:**
+  ```text
+  // 02 SERVICES
+  ```
+* **Section Heading:**
+  ```text
+  WHAT I DO
+  ```
+* **Section Subhead:**
+  ```text
+  From initial offer strategy to live digital products, automated and built to scale.
+  ```
+
+### Drawer 01: Product & Web Design
+* **Outline Stamp:** `01`
+* **Title:** `PRODUCT & WEB DESIGN`
+* **Hook (Bold):**
+  ```text
+  CUSTOM DIGITAL PRODUCTS THAT BUILD AUTHORITY AND DRIVE REVENUE.
+  ```
+* **Body Copy:**
+  ```text
+  From startup landing pages and custom web builds to e-commerce storefronts and interactive interfaces, I build fast, responsive websites tailored to your brand.
+
+  Already have a website? I also handle complete redesigns, SEO, speed overhauls, and ongoing site management so your digital presence stays sharp.
+  ```
+* **Numbered Deliverables Index:**
+  * `01  Custom Web Design & Frontend Development`
+  * `02  High-Converting Landing Pages & Launch Sites`
+  * `03  E-Commerce & Storefront Architecture`
+  * `04  Technical SEO & Speed Optimization`
+  * `05  Redesigns & Ongoing Website Management`
+* **Action Trigger:** `Inquire for Product & Web Design ->`
+
+### Drawer 02: Copywriting & Launch Strategy
+* **Outline Stamp:** `02`
+* **Title:** `COPYWRITING & LAUNCH STRATEGY`
+* **Hook (Bold):**
+  ```text
+  MESSAGING THAT MAKES YOUR VALUE OBVIOUS.
+  ```
+* **Body Copy:**
+  ```text
+  If people do not understand why they should choose you in five seconds, they leave. I write clear sales pages, headlines, and content that explain complex offers simply and move customers to take action.
+  ```
+* **Numbered Deliverables Index:**
+  * `01  Landing Page & Sales Copywriting`
+  * `02  Offer Positioning & Core Messaging`
+  * `03  Brand Content & Authority Writing`
+  * `04  Lifecycle Marketing & Automated Email Funnels`
+* **Action Trigger:** `Inquire for Copywriting & Launch ->`
+
+### Drawer 03: AI Integration & Business Automation
+* **Outline Stamp:** `03`
+* **Title:** `AI INTEGRATION & AUTOMATION`
+* **Hook (Bold):**
+  ```text
+  AUTOMATE REPETITIVE TASKS. SAVE HOURS EVERY WEEK.
+  ```
+* **Body Copy:**
+  ```text
+  As technology accelerates, manual operations eat up your team's time and slow down delivery. I integrate practical AI tools and build automated workflows that handle routine tasks, streamline client delivery, and keep your business running smoothly without hiring extra staff.
+  ```
+* **Numbered Deliverables Index:**
+  * `01  Custom AI Tool Integration & Smart Workflows`
+  * `02  Business Operations & Delivery Automation`
+  * `03  CRM, Form & Payment Routing (Stripe, Airtable, Notion)`
+  * `04  Automated Client Onboarding & Internal Notifications`
+* **Action Trigger:** `Inquire for AI & Automation ->`
+
+---
+
+## 6. The "About Me" Section
+
+* **Floating Hairline Pill Badge:**
+  ```text
+  [ About Me ]
+  ```
+* **Kinetic Background Marquee:**
+  ```text
+  about · about · about · about · about · about
+  ```
+
+* **Lead Conviction Headline (Bigger Scale):**
+  ```text
+  I always thought focusing on just one discipline was a limitation. 
+
+  So I learned the entire customer pipeline: how to structure the offer, write the words that sell, design the digital product, and automate the operations.
+  ```
+  *(Highlighted in Acid Lime: "entire customer pipeline" and "words that sell")*
+
+* **The 3 Core Truths (The Hybrid Edge):**
+  ```text
+  Most designers cannot write. They build pretty interfaces with confusing copy.
+  
+  Most copywriters cannot build. They write sharp words that get ruined by bad layouts.
+  
+  Most marketers cannot automate. They bring in leads that get lost in manual spreadsheets.
+
+  I bridge all three so founders work with one dedicated partner from initial idea to live revenue.
+  ```
+
+* **Numeric Proof Chips:**
+  * `[ +34% ]  Average mobile checkout conversion lift on client storefronts.`
+  * `[ 45s ]   Automated lead response time on deployed AI workflows.`
+  * `[ 1 Partner ]  Strategy, design, copy, and code delivered under one roof.`
+
+---
+
+## 7. Grounded Negative Space Footer
 
 * **Primary Callout (Left):**
   ```text
@@ -210,12 +227,12 @@
   ```
 * **Sub-Callout:**
   ```text
-  Available for custom web builds, copywriting sprints, and growth consulting.
+  Available for digital product design, launch sprints, and growth consulting.
   ```
 * **Action Pills (Right):**
   * `hello@yourdomain.com [COPY]`
   * `Book a 15-Minute Scoping Call ->`
-* **ASCII Social Pills:**
+* **Dense ASCII Social Pills:**
   * `[ X / TWITTER ]`
   * `[ LINKEDIN ]`
   * `[ GITHUB ]`
@@ -228,7 +245,7 @@
 
 ---
 
-## 7. Dedicated Subpage Template Copy (`/work/[slug]`)
+## 8. Dedicated Subpage Template Copy (`/work/[slug]`)
 
 * **Back Navigation:** `<- Back to Work Archive`
 * **Section Headers:**
