@@ -25,7 +25,7 @@ This portfolio is an unboxed, high-ticket digital experience for a **Product Des
    * Once fully covering the viewport, the stage locks and its inner 16:9 project cards scrub **horizontally (sideways from right to left)** across the screen.
    * Scrolling back up perfectly reverses the sequence: the horizontal track rewinds to Project 01, and the stage glides back down to unmask the Hero.
 4. **The Apple Dynamic Island Nav (Liquid Drop, Spread, Contract & Proximity):**
-   * *Entrance:* Drops from top center as a compact dark capsule. Upon landing ($20\text{px}$ from top), liquid frosted blur spreads outward from the center to the outer edges like water parting on glass, settling into a squircle pill.
+   * *Entrance:* Drops from top center as a compact dark capsule. Upon landing ($20\text{px}$ from top), liquid clear glass optical refraction spreads outward from the center to the outer edges like water parting on a crystal lens, settling into an ultra-clear squircle pill.
    * *Scroll Contraction:* As the user scrolls through content, the nav smoothly contracts into a sleek micro-capsule (`[ YOUR NAME • Let's Talk ]`).
    * *Proximity Expansion:* Moving the cursor within $80\text{px}$ of the top edge causes the capsule to fluidly expand back to full size with spring physics (`cubic-bezier(0.34, 1.56, 0.64, 1)`), revealing all links.
    * *The Spirit Level Bubble:* Inside the nav, the active indicator is an **Electric Acid Lime liquid bubble** that stretches with movement velocity and snaps into resting roundness.
@@ -52,7 +52,7 @@ This portfolio is an unboxed, high-ticket digital experience for a **Product Des
 | Token Name | Hex Value | Viewport Share | Semantic Role |
 |---|---|---|---|
 | `canvas-abyssal` | `#07080A` | **65%** | Absolute pitch-black obsidian slate canvas. |
-| `surface-glass` | `rgba(14, 17, 24, 0.76)` | **25%** | Liquid frosted glass island nav, project viewport cards, drawer panels. |
+| `surface-glass` | `rgba(15, 17, 23, 0.42)` | **25%** | Liquid clear optical glass (iOS style) with dual-rim specular highlights, 16px backdrop blur, and background refraction. |
 | `border-subtle` | `rgba(255, 255, 255, 0.08)` | Structural | 1px hairline structural rules, dividers, and card outlines. |
 | `border-active` | `rgba(255, 255, 255, 0.25)` | State | Illuminated border on hover or active drawer states. |
 | `text-primary` | `#FFFFFF` | **8%** | Absolute crisp white for headlines and high-emphasis reading. |
@@ -93,8 +93,13 @@ To ensure zero Apple licensing liabilities while maintaining optical density and
 ### A. The Dynamic Island Nav (Liquid Glass Squircle)
 * **Geometry:** Floating centered pill. Height: `48px`, Width: auto (inline-flex), `border-radius: 9999px`.
 * **Position:** Fixed `top: 20px`, `z-index: 50`.
-* **Material:** Background `rgba(14, 17, 24, 0.76)`, backdrop blur `24px`, border `1px solid rgba(255, 255, 255, 0.12)`.
-* **Entrance Physics:** Drops from top center ($44\text{px} \times 44\text{px}$), blur spreads center-to-edge, expands horizontally into full squircle over $750\text{ms}$.
+* **Material (Clear Liquid Glass / iOS Style):**
+  * Fill: `rgba(15, 17, 23, 0.42)` (true optical transparency).
+  * Optics: `backdrop-filter: blur(16px) saturate(180%)`.
+  * Specular Rim Lighting: `box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.32), inset 0 -1px 1px 0 rgba(0, 0, 0, 0.45), 0 16px 36px -8px rgba(0, 0, 0, 0.6)`.
+  * Border: `1px solid rgba(255, 255, 255, 0.15)`.
+  * Text Contrast Scrim: `text-shadow: 0 1px 2px rgba(0, 0, 0, 0.75)`.
+* **Entrance Physics:** Drops from top center ($44\text{px} \times 44\text{px}$), clear optical refraction and specular edge highlights spread center-to-edge, expands horizontally into full squircle over $750\text{ms}$.
 * **Scroll Contraction:** On vertical scroll past $100\text{px}$, contracts into micro-pill (`[ YOUR NAME • Let's Talk ]`).
 * **Mouse Proximity:** Moving cursor within $80\text{px}$ of top edge fluidly expands nav back to full pill with `cubic-bezier(0.34, 1.56, 0.64, 1)`.
 * **The Spirit Level Bubble:**
@@ -127,7 +132,7 @@ To ensure zero Apple licensing liabilities while maintaining optical density and
 ### Section 01: The Hero Stage
 * Centered monumental portrait with real-time Liquid ASCII Water Ripple.
 * Split tension: Bold headline on the left (`PRODUCT DESIGNER. GROWTH MARKETER.`), conversational human thesis on the right with chromatic Acid Lime word highlights.
-* Dynamic Island drops in and spreads blur center-to-edge.
+* Dynamic Island drops in and spreads clear optical refraction and specular edge highlights center-to-edge.
 
 ### Section 02: Selected Work (Horizontal Runway on Top of Pinned Hero)
 * Hero pins in place as scroll initiates.

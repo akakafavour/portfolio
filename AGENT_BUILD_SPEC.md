@@ -88,14 +88,14 @@
 ### Phase 1: Environment & Token Setup
 1. Initialize the project with TypeScript, Tailwind CSS, and `lenis`.
 2. In `tailwind.config.ts`, register the exact design tokens from `DESIGN.md`:
-   * Colors: `canvas-abyssal` (`#07080A`), `surface-glass` (`rgba(14, 17, 24, 0.76)`), `text-primary` (`#FFFFFF`), `accent-lime` (`#D4FF00`).
+   * Colors: `canvas-abyssal` (`#07080A`), `surface-glass` (`rgba(15, 17, 23, 0.42)`), `text-primary` (`#FFFFFF`), `accent-lime` (`#D4FF00`).
    * Border radii: `rounded-pill: '9999px'`, `rounded-stage: '36px'`.
    * Easing curves: `snappy: 'cubic-bezier(0.16, 1, 0.3, 1)'`, `elastic: 'cubic-bezier(0.34, 1.56, 0.64, 1)'`.
 
 ### Phase 2: The Dynamic Island Nav
 1. Build `DynamicIslandNav.tsx`:
    * Fixed at `top: 20px`, `z-index: 50`.
-   * Entrance animation: Drops from top center ($44\text{px} \times 44\text{px}$), frosted blur spreads center-to-edge, expands horizontally into full squircle over $750\text{ms}$.
+   * Entrance animation: Drops from top center ($44\text{px} \times 44\text{px}$), clear optical refraction and specular edge highlights spread center-to-edge, expands horizontally into full squircle over $750\text{ms}$. Material: `rgba(15, 17, 23, 0.42)`, `backdrop-filter: blur(16px) saturate(180%)`, dual specular rim lighting.
    * Scroll contraction: When vertical scroll > $100\text{px}$, smoothly contracts into `[ YOUR NAME • Let's Talk ]`.
    * Proximity expansion: When cursor approaches within $80\text{px}$ of top edge, fluidly expands back to full pill.
 2. Build `SpiritLevelBubble.tsx`:
